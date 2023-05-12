@@ -66,30 +66,6 @@ public class PlayerController : MonoBehaviour
         Xmovement = 0;
         Zmovement = 0;
 
-        /* OLD MOVEMENT SCRIPT - ALLOWED FOR FASTER MOVEMENT BY MOVING DIAGONALLY.
-         
-        if (Input.GetKey(KeyCode.W))
-        {
-            transform.position = transform.position + (transform.forward * speed * Time.deltaTime);
-        }
-
-        if (Input.GetKey(KeyCode.S))
-        {
-            transform.position = transform.position + (-transform.forward * speed * Time.deltaTime);
-        }
-
-        if (Input.GetKey(KeyCode.D))
-        {
-            transform.position = transform.position + (transform.right * speed * Time.deltaTime);
-        }
-
-        if (Input.GetKey(KeyCode.A))
-        {
-            transform.position = transform.position + (-transform.right * speed * Time.deltaTime);
-        }
-         */
-
-
 
         if (Input.GetKeyDown("space"))
         {

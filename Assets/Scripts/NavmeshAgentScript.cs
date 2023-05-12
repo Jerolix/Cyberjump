@@ -9,7 +9,7 @@ public class NavmeshAgentScript : MonoBehaviour {
     NavMeshAgent agent; 
 
     // Use this for initialization
-	void Start () 
+	void Awake () 
     {
         agent = GetComponent<NavMeshAgent>();
         target = GameObject.FindGameObjectWithTag("Player").transform;
@@ -20,4 +20,15 @@ public class NavmeshAgentScript : MonoBehaviour {
     {
         agent.SetDestination(target.position);
 	}
+
+    public void TargetPlayer()
+    {
+        target = GameObject.FindGameObjectWithTag("Player").transform;
+    }
+
+    public void TargetSelf()
+    {
+        target = gameObject.transform;
+        agent.SetDestination(target.position);
+    }
 }
