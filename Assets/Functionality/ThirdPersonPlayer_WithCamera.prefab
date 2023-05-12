@@ -213,6 +213,7 @@ GameObject:
   - component: {fileID: 4341738528604915595}
   - component: {fileID: 4341738528604915599}
   - component: {fileID: 5490197564724495837}
+  - component: {fileID: 5564991896558260106}
   m_Layer: 0
   m_Name: ThirdPersonPlayer_WithCamera
   m_TagString: Player
@@ -332,3 +333,20 @@ MonoBehaviour:
   speed: 10
   maxGroundDistance: 1.5
   allowDoubleJump: 0
+--- !u!114 &5564991896558260106
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4341738528604915604}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 437a0ee1e3aefc541b723f6f5c462c55, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CPList: []
+  currentCheckpoint: {fileID: 0}
+  player: {fileID: 0}
+  activeMaterial: {fileID: 0}
+  inactiveMaterial: {fileID: 0}
