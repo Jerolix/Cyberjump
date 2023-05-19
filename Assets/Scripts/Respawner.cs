@@ -85,7 +85,7 @@ public class Respawner : MonoBehaviour
 
     private void ReactivateController()
     {
-        charController.enabled = true;
+        //charController.enabled = true;
     }
 
 
