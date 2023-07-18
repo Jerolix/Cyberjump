@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Cyberjump2804.unity
+    guid: 68741cb5c9c26c4479a3667d026e461b
   m_configObjects: {}

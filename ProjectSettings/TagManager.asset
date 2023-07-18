@@ -7,6 +7,7 @@ TagManager:
   - CheckPoint
   - StartPoint
   - LevelManager
+  - Enemy
   layers:
   - Default
   - TransparentFX
